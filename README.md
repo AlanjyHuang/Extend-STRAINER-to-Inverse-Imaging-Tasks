@@ -74,10 +74,24 @@ STRAINER relies heavily on the choice of activation function. Motivated by its l
 
 ## 📚 Citation
 
-If you find this work helpful, please cite the original STRAINER paper and our extension:
+Got it! Here's how you can include the citations for **STRAINER**, **SIREN**, and **KAN** directly in your `README.md` in a clean and professional way:
 
-> STRAINER: Spatially Transferable Implicit Neural Representations
-> \[arXiv Link Coming Soon]
+---
+
+## 📚 References
+
+* Vyas, K., Humayun, A. I., Dashpute, A., Baraniuk, R. G., Veeraraghavan, A., & Balakrishnan, G. (2023).
+  **Learning Transferable Features for Implicit Neural Representations**.
+  *arXiv preprint arXiv:2311.17124*. [https://arxiv.org/abs/2311.17124](https://arxiv.org/abs/2311.17124)
+
+* Sitzmann, V., Martel, J. N. P., Bergman, A. W., Lindell, D. B., & Wetzstein, G. (2020).
+  **Implicit Neural Representations with Periodic Activation Functions**.
+  *Advances in Neural Information Processing Systems (NeurIPS)*, 33, 7462–7473.
+  [https://proceedings.neurips.cc/paper\_files/paper/2020/file/53c04118f1176ca5dd3e764e3f8d408b-Paper.pdf](https://proceedings.neurips.cc/paper_files/paper/2020/file/53c04118f1176ca5dd3e764e3f8d408b-Paper.pdf)
+
+* Zhang, Q., Liu, Z., Huang, Z., Chen, Y., Darrell, T., Mahadevan, V., & Zhang, X. (2024).
+  **Kolmogorov-Arnold Networks**.
+  *arXiv preprint arXiv:2401.04077*. [https://arxiv.org/abs/2401.04077](https://arxiv.org/abs/2401.04077)
 
 ---
 

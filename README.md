@@ -1,9 +1,4 @@
-# Extend-STRAINER-to-Inverse-Imaging-Tasks
-Sure! Here's the full combined `README.md` in a professional and clear format for your GitHub capstone repository:
-
----
-
-# 🧠 STRAINER for Inverse Imaging Problems
+# 🧠 Extend-STRAINER-to-Inverse-Imaging-Tasks
 
 ## 📘 Overview
 

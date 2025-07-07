@@ -1,6 +1,6 @@
-# 🧠 Extend-STRAINER-to-Inverse-Imaging-Tasks
-
-## 📘 Overview
+# Extend-STRAINER-to-Inverse-Imaging-Tasks
+> More detail please look into [paper](MECE_Capstone___2025___Extend_STRAINER_to_Inverse_Imaging_Tasks.pdf)
+## Overview
 
 This project explores the application of **STRAINER** (Spatially Transferable Implicit Neural Representations) to inverse problems in computational imaging, with a focus on medical imaging tasks such as CT scan reconstruction, denoising, and super-resolution. While traditional methods like CNNs, GANs, and ViTs have made significant progress, they often require large datasets and expensive training. STRAINER offers a more sample-efficient alternative through transfer learning of INRs.
 
@@ -8,9 +8,9 @@ Our work investigates the effectiveness of STRAINER on various inverse problems 
 
 ---
 
-## 🧪 Methods and Tasks
+## Methods and Tasks
 
-### ✅ Task 1: Testing STRAINER on Inverse Problems
+### Task 1: Testing STRAINER on Inverse Problems
 
 * **Problems tested**:
 
@@ -19,13 +19,13 @@ Our work investigates the effectiveness of STRAINER on various inverse problems 
   * CT reconstruction (2 datasets, multiple projection angles)
 * **Findings**: STRAINER improves convergence speed but not final image quality. CT reconstruction remains a challenge.
 
-### ✅ Task 2: Encoder Size vs Reconstruction Quality
+### Task 2: Encoder Size vs Reconstruction Quality
 
 * Evaluated STRAINER with encoder depths from 1 to 4 layers.
 * Applied to both natural and CT image reconstruction tasks.
 * **Conclusion**: No clear correlation between encoder size and quality; deeper is not always better.
 
-### ✅ Task 3: Evaluating STRAINER at Scale
+### Task 3: Evaluating STRAINER at Scale
 
 * Ran over 100+ experiments on different datasets with:
 
@@ -34,7 +34,7 @@ Our work investigates the effectiveness of STRAINER on various inverse problems 
   * STRAINER with 10 training images
 * **Result**: STRAINER (10-shot) converges fastest, but final reconstruction quality is similar across variants.
 
-### ✅ Task 4: Visualizing STRAINER’s Learning Process
+### Task 4: Visualizing STRAINER’s Learning Process
 
 * Added PyTorch hooks to extract and visualize MLP layer activations across training steps.
 * Compared feature learning in SIREN vs STRAINER.
@@ -42,7 +42,7 @@ Our work investigates the effectiveness of STRAINER on various inverse problems 
 
 ---
 
-## 🚧 Extension: KAN Integration
+## Extension: KAN Integration
 
 STRAINER relies heavily on the choice of activation function. Motivated by its limitations in CT reconstruction, we propose replacing the fixed sine activation with a **learnable function via KAN (Kolmogorov–Arnold Network)**. Preliminary results suggest KAN may provide more flexible representations for complex inverse tasks.
 
@@ -64,21 +64,14 @@ STRAINER relies heavily on the choice of activation function. Motivated by its l
 
 ---
 
-## 🚀 What's Next?
+## What's Next?
 
 * Complete testing of STRAINER+KAN on CT and denoising tasks.
 * Investigate other learnable activation strategies.
 
 
 ---
-
-## 📚 Citation
-
-Got it! Here's how you can include the citations for **STRAINER**, **SIREN**, and **KAN** directly in your `README.md` in a clean and professional way:
-
----
-
-## 📚 References
+## References
 
 * Vyas, K., Humayun, A. I., Dashpute, A., Baraniuk, R. G., Veeraraghavan, A., & Balakrishnan, G. (2023).
   **Learning Transferable Features for Implicit Neural Representations**.
@@ -95,7 +88,7 @@ Got it! Here's how you can include the citations for **STRAINER**, **SIREN**, an
 
 ---
 
-## 🙋 Authors
+## Authors
 
 This project was conducted as part of the Rice University Capstone Program under the guidance of Prof. Guha Balakrishnan. Special thanks to Kushal Vyas for research mentorship and technical insight.
 
